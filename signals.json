@@ -1,0 +1,50 @@
+[
+  {
+    "id": "HP0",
+    "gruppe": "Hp",
+    "name": "Hp 0",
+    "kuerzel": "Hp 0",
+    "bedeutung": "Halt",
+    "bild": ""
+  },
+  {
+    "id": "HP1",
+    "gruppe": "Hp",
+    "name": "Hp 1",
+    "kuerzel": "Hp 1",
+    "bedeutung": "Fahrt",
+    "bild": ""
+  },
+  {
+    "id": "VR0",
+    "gruppe": "Vr",
+    "name": "Vr 0",
+    "kuerzel": "Vr 0",
+    "bedeutung": "Halt erwarten",
+    "bild": ""
+  },
+  {
+    "id": "VR1",
+    "gruppe": "Vr",
+    "name": "Vr 1",
+    "kuerzel": "Vr 1",
+    "bedeutung": "Fahrt erwarten",
+    "bild": ""
+  },
+  {
+    "id": "SH0",
+    "gruppe": "Sh",
+    "name": "Sh 0",
+    "kuerzel": "Sh 0",
+    "bedeutung": "Halt",
+    "bild": ""
+  },
+  {
+    "id": "SH1",
+    "gruppe": "Sh",
+    "name": "Sh 1",
+    "kuerzel": "Sh 1",
+    "bedeutung": "Fahrverbot aufgehoben",
+    "bild": ""
+  }
+]
