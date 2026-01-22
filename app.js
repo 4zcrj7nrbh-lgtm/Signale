@@ -1,13 +1,22 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const app = document.createElement("div");
-  app.innerHTML = `
-    <h2>Quiz startet bald…</h2>
-    <p>Hier lernst du die Bahn-Signale interaktiv 🚦</p>
-    <button id="startBtn">Quiz starten</button>
-  `;
-  document.body.appendChild(app);
+const signals = [
+  { name: "Hp 0", meaning: "Halt" },
+  { name: "Hp 1", meaning: "Fahrt" }
+];
 
-  document.getElementById("startBtn").addEventListener("click", () => {
-    alert("Hier kommt gleich das echte Signal-Quiz!");
-  });
-});
+let current = 0;
+
+document.body.innerHTML += `
+  <h2>${signals[current].name}</h2>
+  <button onclick="check('Halt')">Halt</button>
+  <button onclick="check('Fahrt')">Fahrt</button>
+  <p id="result"></p>
+`;
+
+function check(answer) {
+  const result = document.getElementById("result");
+  if (answer === signals[current].meaning) {
+    result.textContent = "Richtig ✅";
+  } else {
+    result.textContent = "Falsch ❌";
+  }
+}
